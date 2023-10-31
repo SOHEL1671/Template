@@ -14,6 +14,7 @@
 /* =========== Variable Css End =========== */
 
 /* =========== Top Bar Section Css Start =========== */
+
 #top_bar {
     background-color: var(--dark-hover);
     color: var(--light);
@@ -35,7 +36,7 @@
     color: var(--light);
     font-size: 16px;
     line-height: 28px;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 #top_bar .right ul:first-child li select {
@@ -49,6 +50,7 @@
     background-color: var(--dark-hover);
     padding: 5px 10px;
 }
+
 #top_bar .right ul:first-child li select:focus {
     outline: 0;
 }
@@ -57,7 +59,7 @@
     color: var(--light);
     padding: 0 5px;
     font-size: 20px;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 #top_bar .right ul:last-child li a:hover{
@@ -71,13 +73,14 @@
 /* =========== Top Bar Section Css End =========== */
 
 /* =========== Nav Bar Section Css Start =========== */
+
 #primary_nav #primary_menu ul:first-child li a {
     font-size: 16px;
     line-height: 26px;
     color: var(--text-color);
     text-transform: capitalize;
     padding: 37px 14px;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 #primary_nav #primary_menu ul:last-child li a{
@@ -86,7 +89,7 @@
     background: none;
     color: var(--dark-hover);
     padding: 0 10px;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 #primary_nav #primary_menu ul:last-child li button {
@@ -242,12 +245,22 @@
     line-height: 36px;
     font-size: 20px;
 }
+
 .section_content .bg_hover_light:hover,
-.section_content .btn_hover_light:hover{background-color: var(--primary_color_orange_light);}
-.section_content .bg_white{background-color: var(--light);}
-.section_content .bg_light{color: var(--primary-color-light);}
+.section_content .btn_hover_light:hover{
+    background-color: var(--primary_color_orange_light);
+}
+
+.section_content .bg_white{
+    background-color: var(--light);
+}
+
+.section_content .bg_light{
+    color: var(--primary-color-light);
+}
 
 /* =========Start Product_box CSS Style ========= */
+
 .section_content .product_img_box {
     position: relative;
 }
@@ -333,11 +346,14 @@
    background-color: var(--primary-color-light);
    border-radius: 50%;
 }
+
 .section_content .essential_img_box img {
    width: 40px;
    height: 40px;
 }
+
 /* ========== Start Slick Arrows  CSS Style ========= */
+
 .section_content .arrow_box {
    position: absolute;
    top: 50%;
@@ -385,6 +401,7 @@
 /* ========== End Slick Arrows  CSS Style ========= */
 
 /* ========== End slick Dots  CSS Style ========= */
+
 .section_content .slick-dots {
    display: flex;
    align-items: center;
@@ -394,15 +411,33 @@
    left: 50%;
    transform: translate(-50%, -50%);
 }
-.section_content .slick-dots li button{padding: 0;border: none;font-size: 0;background-color: none;}
-.section_content .slick-dots li{width: 10px;height: 6px;background-color:#BDBDBD;border-radius: 5px;margin: 0 5px;transition: 0.5s;}
+.section_content .slick-dots li button{
+    padding: 0;
+    border: none;
+    font-size: 0;
+    background-color: none;
+}
 
-.section_content .slick-dots li.slick-active{width: 28px;background-color: var(--primary-color-light);}
+.section_content .slick-dots li{
+    width: 10px;
+    height: 6px;
+    background-color:#BDBDBD;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.section_content .slick-dots li.slick-active{
+    width: 28px;
+    background-color: var(--primary-color-light);
+}
+
 /* ========== End slick Dots  CSS Style ========= */
 
 /* --=================== End All Section Common CSS Style Here===================-- */
 
 /* -- =================== start Page Bannar Section CSS Style Here =================== -- */
+
 #page_bannar {
     position: relative;
     height: 400px;
@@ -431,6 +466,7 @@
 /* -- =================== End Page Bannar Section CSS Style Here =================== -- */
 
 /* --=======Start Home_page_Bannar section CSS Style Here ======= -- */
+
 #home_page_bannar {
     position: relative;
 }
@@ -468,13 +504,28 @@
     background-color: var(--light);
     color: var(--primary-color-light);
 }
-#home_page_bannar .arrow_box{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
-#home_page_bannar .arrow_box .arrow_left{position: absolute;top: 0;left: -50px;}
-#home_page_bannar  .dot_items{position: absolute; bottom:180px;left: 50px;}
+#home_page_bannar .arrow_box{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home_page_bannar .arrow_box .arrow_left{
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+#home_page_bannar  .dot_items{
+    position: absolute; 
+    bottom:180px;
+    left: 50px;
+}
 
 /* --======= End Home_page_Bannar section CSS Style Here ======= -- */
 
 /* --======= Start Home_page_Mini_Bannar section CSS Style Here ======= -- */
+
 #home_page_mini_bannar {
     padding: 100px 0;
 }
@@ -542,6 +593,7 @@
 /* --======= End Home_page_Mini_Bannar section CSS Style Here ======= -- */
 
 /* --======= Start Home_page_Arrival Section  CSS Style Here ======= -- */
+
 #home_page_arrival_product {
     position: relative;
 }
@@ -586,6 +638,7 @@
 /* --======= End Home_page_Arrival Section  CSS Style Here ======= -- */
 
 /* --======= Start Home_page_Offer Section  CSS Style Here ======= -- */
+
 #home_page_offer {
     margin: 100px 0;
     position: relative;
@@ -635,6 +688,7 @@
 /* --======= End Home_page_Offer Section  CSS Style Here ======= -- */
 
 /* --======= End Home_page_Best_seller Section CSS Style Here ======= -- */
+
 #home_page_best_seller {
     position: relative;
 }
@@ -675,6 +729,7 @@
 /* --======= End Home_page_Best_seller Section CSS Style Here ======= -- */
 
 /* --======= Start Home_page_Deal_Offer Section CSS Style Here ======= -- */
+
 #home_page_deals_offer {
     position: relative;
     margin: 100px 0
@@ -774,10 +829,14 @@
     margin-top: 30px;
 }
 
-#home_page_deals_offer .section_content .slick-dots{bottom: 40px;}
+#home_page_deals_offer .section_content .slick-dots{
+    bottom: 40px;
+}
+
 /* --======= End Home_page_Deal_Offer Section CSS Style Here ======= -- */
 
 /* --======= Start Home_page_Special_Offer Section Here ======= -- */
+
 #home_page_spacial_offer {
     background-color: #F1F3F4;
 }
@@ -811,7 +870,11 @@
     background-repeat: no-repeat;
     transition: 1s;
 }
-#home_page_spacial_offer .section_content .sec_btn_lg:hover{background-position: left bottom;}
+
+#home_page_spacial_offer .section_content .sec_btn_lg:hover{
+    background-position: left bottom;
+}
+
 #home_page_spacial_offer .bg_info {
     position: relative;
     width: 200px;
@@ -901,6 +964,7 @@
 /* --======= End Home_page_Special_Offer Section Here ======= -- */
 
 /* -- ======= End Home_page_Latest News Section Here ======= -- */
+
 #home_page_latest {
     padding: 115px 0 100px;
 }
@@ -980,6 +1044,7 @@
 /* -- ======= End Home_page_Latest News Section Here ======= -- */
 
 /* -- ======= Start Home_page_essential Section Here ======= -- */
+
 #home_page_essential {margin-top: 100px;}
 #home_page_essential .section_content {
     position: absolute;
@@ -991,9 +1056,11 @@
     transform: translateY(50%);
     z-index: 10;
 }
+
 /* -- ======= End Home_page_essential Section Here ======= -- */
 
 /* -- ======= Start Home_page_story Section CSS Style Here ======= -- */
+
 #_page_stroy .section_content .sec_btn_round i {
    color: var(--primary-color-light);
    text-align: center;
@@ -1069,13 +1136,16 @@
 /***** Hero Section End *****/
 
 /* =========== Footer Section Css Start =========== */
+
 footer {
     background-color: var(--text-color);
 }
+
 footer .footer_upper {
     border-bottom: 1px solid var(--paragraph-color);
     padding: 76px 0;
 }
+
 footer .footer_upper .widget-1 ul li a {
     width: 40px;
     height: 40px;
@@ -1087,19 +1157,23 @@ footer .footer_upper .widget-1 ul li a {
     line-height: 40px;
     transition: 0.4s;
 }
+
 footer .footer_upper .widget-1 ul li a:hover {
     background-color: var(--primary-color-light);
     color: var(--light);
 }
+
 footer .footer_lower {
     color: var(--light);
     padding: 70px 0;
 }
+
 footer .footer_lower .widget h4 {
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 22px;
 }
+
 footer .footer_lower .widget nav ul li a {
     color: var(--light);
     font-family: var(--body-font);
@@ -1108,20 +1182,24 @@ footer .footer_lower .widget nav ul li a {
     text-transform: capitalize;
     transition: 0.4s;
 }
+
 footer .footer_lower .widget nav ul li a:hover {
     color: var(--primary-color-light);
 }
+
 footer .footer_lower .widget nav ul li a::before {
     content: "\f054";
     font-family: "Font Awesome 6 Free";
     font-weight: 700;
     padding-right: 7px;
 }
+
 footer .footer_lower .widget.widget-6 table tr {
     font-family: var(--body-font);
     font-size: 16px;
     line-height: 28px;
 }
+
 footer .footer_lower .widget.widget-6 table tr th {
     padding-right: 13px;
 }
@@ -1131,27 +1209,33 @@ footer .footer_lower .widget-7{
     font-family: var(--body-font);
     line-height: 28px;
 } 
+
 footer .footer_lower .widget-7 a {
     color: var(--light);
     font-family: var(--body-font);
     line-height: 28px;
 }
+
 footer .footer_lower .widget-7 li {
     margin-bottom: 5px;
 }
+
 footer .footer_lower .widget.widget-7 i {
     font-size: 24px;
     color: var(--primary-color-light);
     padding-right: 10px;
 }
+
 footer .footer_lower .widget-8 p {
     font-family: var(--body-font);
     margin-bottom: 23px;
     line-height: 28px;
 }
+
 footer .footer_lower .widget-8 form {
     background-color: var(--light);
 }
+
 footer .footer_lower .widget-8 input {
     background: none;
     border: none;
@@ -1159,6 +1243,7 @@ footer .footer_lower .widget-8 input {
     line-height: 28px;
     font-family: var(--body-font);
 }
+
 footer .footer_lower .widget-8 button {
     border: none;
     color: var(--light);
@@ -1172,9 +1257,11 @@ footer .footer_lower .widget-8 button {
 /* =========== Footer Section Css End =========== */
 
 /* =========== Copyright Section Css Start =========== */
+
 #copyright{
     background-color: rgba(255, 2555, 255, 0.1);
 }
+
 #copyright p {
     color: var(--light);
     font-family: var(--body-font);
@@ -1182,12 +1269,15 @@ footer .footer_lower .widget-8 button {
     line-height: 28px;
     padding: 21px 0;
 }
+
 #copyright p a{
     color: var(--primary-color-light);
 }
+
 /* =========== Copyright Section Css End =========== */
 
 /* =========== Search Modal Section Css Start =========== */
+
 #search_modal {
     position: fixed;
     inset: 0;
@@ -1196,14 +1286,17 @@ footer .footer_lower .widget-8 button {
     transform-origin: left;
     transition: 0.5s;
 }
+
 #search_modal.show {
     transform: scale(1) rotate(0deg);
 }
+
 #search_modal form {
     border: 2px solid var(--primary-color-light);
     border-radius: 50px;
     padding: 15px 20px;
 }
+
 #search_modal form input {
     padding: 5px;
     background: none;
@@ -1211,15 +1304,18 @@ footer .footer_lower .widget-8 button {
     font-size: 20px;
     color: var(--light);
 }
+
 #search_modal form input::placeholder {
     color: var(--light);
 }
+
 #search_modal form button {
     background: none;
     border: none;
     color: var(--light);
     font-size: 25px;
 }
+
 #search_modal #search_close_btn {
     width: 60px;
     height: 60px;
@@ -1233,9 +1329,11 @@ footer .footer_lower .widget-8 button {
     top: 20px;
     transition: 0.4s;
 }
+
 #search_modal #search_close_btn:hover {
     background: var(--light);
     border-color: var(--light);
     transform: rotate(90deg);
 }
+
 /* =========== Search Modal Section Css End =========== */
